@@ -8,9 +8,11 @@ import java.io.*;
 import javax.swing.JOptionPane;
 
 /**
- * @author Umut
- *
+ * 
+ * @author Troopa
+ * @version 26.01.2014
  */
+
 public class Test {
 	
 	public static void main(String[] args) throws IOException {

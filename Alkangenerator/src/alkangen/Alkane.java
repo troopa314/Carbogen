@@ -4,8 +4,9 @@
 package alkangen;
 
 /**
- * @author Umut
- *
+ * 
+ * @author Troopa
+ * @version 26.01.2014
  */
 public class Alkane {
 	

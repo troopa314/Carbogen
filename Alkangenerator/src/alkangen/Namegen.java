@@ -1,5 +1,11 @@
 package alkangen;
 import java.util.Random;
+
+/**
+ * 
+ * @author Troopa
+ * @version 26.01.2014
+ */
 public class Namegen {
 	
 	Random random1 = new Random();
