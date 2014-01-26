@@ -39,12 +39,12 @@ public class Namegen {
 	
 	protected String generateSuffix(Hydrocarbon h) {
 		switch(isValid(h)) {
-		case Types.ALKAN : return "an";
-		case Types.ALKEN : return "en";
-		case Types.ALKIN : return "in";
-		case Types.ALKANOL : return "anol";
-		case Types.ALKENOL : return "enol";
-		case Types.ALKINOL : return "inol";
+		case Types.ALKANE : return "ane";
+		case Types.ALKENE : return "ene";
+		case Types.ALKINE : return "ine";
+		case Types.ALKANOLE: return "anole";
+		case Types.ALKENOLE : return "enole";
+		case Types.ALKINOLE : return "inole";
 		}
 		return null;
 	}
@@ -57,29 +57,29 @@ public class Namegen {
 	
 	protected static String typToName(int typ) {
 		switch(typ) {
-		case Types.ALKAN : return "Alkan";
-		case Types.ALKEN : return "Alken";
-		case Types.ALKIN : return "Alkin";
-		case Types.ALKANOL : return "Alkanol";
-		case Types.ALKENOL : return "Alkenol";
-		case Types.ALKINOL : return "Alkinol";
-		case Types.UNBEKANNT : return "Ungültig";
+		case Types.ALKANE : return "Alkane";
+		case Types.ALKENE : return "Alkene";
+		case Types.ALKINE : return "Alkine";
+		case Types.ALKANOLE : return "Alkanole";
+		case Types.ALKENOLE : return "Alkenole";
+		case Types.ALKINOLE : return "Alkinole";
+		case Types.UNKNOWN : return "Unknown";
 		}
 		return null;
 	}
 	
 	protected int isValid(Hydrocarbon h) {
 		if(2 * h.getcAtome() + 2 == h.gethAtome()) {
-			return Types.ALKAN;
+			return Types.ALKANE;
 		}
 		else if(2 * h.getcAtome() == h.gethAtome() && generatePrefix(h) != "Meth") {
-			return Types.ALKEN;
+			return Types.ALKENE;
 		}
 		else if(2 *h.getcAtome() - 2 == h.gethAtome() && generatePrefix(h) != "Meth") {
-			return Types.ALKIN;
+			return Types.ALKINE;
 		}
 		else if(2 * h.getcAtome() + 1 == h.gethAtome()) {
-			return Types.ALKANOL;
+			return Types.ALKANOLE;
 		}
 		return -1;
 	}
