@@ -5,9 +5,9 @@ package alkangen;
  * @author Troopa
  * @version 26.01.2014
  */
-public class Klassifizierungen {
+public class Types {
 	
-	private Klassifizierungen() {
+	private Types() {
 		
 	}
 	

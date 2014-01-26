@@ -23,16 +23,16 @@ public class Test {
 		Writer fw = null;
 		File file = new File("Hydrocarbons.txt");
 		try{fw = new FileWriter(file);} catch(IOException e){};
-		if(typ == Klassifizierungen.ALKAN) {
+		if(typ == Types.ALKAN) {
 			m = 2;
 		}
-		else if(typ == Klassifizierungen.ALKEN) {
+		else if(typ == Types.ALKEN) {
 			m = 0;
 		}
-		else if(typ == Klassifizierungen.ALKIN) {
+		else if(typ == Types.ALKIN) {
 			m = -2;
 		}
-		else if(typ == Klassifizierungen.ALKANOL) {
+		else if(typ == Types.ALKANOL) {
 			m = 1;
 		}
 		for(int i = 1; i <= max; i++) {
