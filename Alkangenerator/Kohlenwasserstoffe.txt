@@ -1,0 +1,250 @@
+Name: Methnull
+C-Atome: 1
+H-Atome: 2
+Typ: Ungültig
+____________________
+Name: Ethen
+C-Atome: 2
+H-Atome: 4
+Typ: Alken
+____________________
+Name: Propen
+C-Atome: 3
+H-Atome: 6
+Typ: Alken
+____________________
+Name: Buten
+C-Atome: 4
+H-Atome: 8
+Typ: Alken
+____________________
+Name: Penten
+C-Atome: 5
+H-Atome: 10
+Typ: Alken
+____________________
+Name: Hexen
+C-Atome: 6
+H-Atome: 12
+Typ: Alken
+____________________
+Name: Hepten
+C-Atome: 7
+H-Atome: 14
+Typ: Alken
+____________________
+Name: Octen
+C-Atome: 8
+H-Atome: 16
+Typ: Alken
+____________________
+Name: Nonen
+C-Atome: 9
+H-Atome: 18
+Typ: Alken
+____________________
+Name: Decen
+C-Atome: 10
+H-Atome: 20
+Typ: Alken
+____________________
+Name: Undecen
+C-Atome: 11
+H-Atome: 22
+Typ: Alken
+____________________
+Name: Dodecen
+C-Atome: 12
+H-Atome: 24
+Typ: Alken
+____________________
+Name: Tridecen
+C-Atome: 13
+H-Atome: 26
+Typ: Alken
+____________________
+Name: Tetradecen
+C-Atome: 14
+H-Atome: 28
+Typ: Alken
+____________________
+Name: Pentadecen
+C-Atome: 15
+H-Atome: 30
+Typ: Alken
+____________________
+Name: Hexadecen
+C-Atome: 16
+H-Atome: 32
+Typ: Alken
+____________________
+Name: Heptadecen
+C-Atome: 17
+H-Atome: 34
+Typ: Alken
+____________________
+Name: Octadecen
+C-Atome: 18
+H-Atome: 36
+Typ: Alken
+____________________
+Name: Nonadecen
+C-Atome: 19
+H-Atome: 38
+Typ: Alken
+____________________
+Name: Icosen
+C-Atome: 20
+H-Atome: 40
+Typ: Alken
+____________________
+Name: Henicosen
+C-Atome: 21
+H-Atome: 42
+Typ: Alken
+____________________
+Name: Docosen
+C-Atome: 22
+H-Atome: 44
+Typ: Alken
+____________________
+Name: Tricosen
+C-Atome: 23
+H-Atome: 46
+Typ: Alken
+____________________
+Name: Tetracosen
+C-Atome: 24
+H-Atome: 48
+Typ: Alken
+____________________
+Name: Pentacosen
+C-Atome: 25
+H-Atome: 50
+Typ: Alken
+____________________
+Name: Hexacosen
+C-Atome: 26
+H-Atome: 52
+Typ: Alken
+____________________
+Name: Heptacosen
+C-Atome: 27
+H-Atome: 54
+Typ: Alken
+____________________
+Name: Octacosen
+C-Atome: 28
+H-Atome: 56
+Typ: Alken
+____________________
+Name: Nonacosen
+C-Atome: 29
+H-Atome: 58
+Typ: Alken
+____________________
+Name: Triaconten
+C-Atome: 30
+H-Atome: 60
+Typ: Alken
+____________________
+Name: Hentriaconten
+C-Atome: 31
+H-Atome: 62
+Typ: Alken
+____________________
+Name: Dotriaconten
+C-Atome: 32
+H-Atome: 64
+Typ: Alken
+____________________
+Name: Tritriaconten
+C-Atome: 33
+H-Atome: 66
+Typ: Alken
+____________________
+Name: Tetratriaconten
+C-Atome: 34
+H-Atome: 68
+Typ: Alken
+____________________
+Name: Pentatriaconten
+C-Atome: 35
+H-Atome: 70
+Typ: Alken
+____________________
+Name: Hexatriaconten
+C-Atome: 36
+H-Atome: 72
+Typ: Alken
+____________________
+Name: Heptatriaconten
+C-Atome: 37
+H-Atome: 74
+Typ: Alken
+____________________
+Name: Octatriaconten
+C-Atome: 38
+H-Atome: 76
+Typ: Alken
+____________________
+Name: Nonatriaconten
+C-Atome: 39
+H-Atome: 78
+Typ: Alken
+____________________
+Name: Tetraconten
+C-Atome: 40
+H-Atome: 80
+Typ: Alken
+____________________
+Name: Hentetraconten
+C-Atome: 41
+H-Atome: 82
+Typ: Alken
+____________________
+Name: Dotetraconten
+C-Atome: 42
+H-Atome: 84
+Typ: Alken
+____________________
+Name: Tritetraconten
+C-Atome: 43
+H-Atome: 86
+Typ: Alken
+____________________
+Name: Tetratetraconten
+C-Atome: 44
+H-Atome: 88
+Typ: Alken
+____________________
+Name: Pentatetraconten
+C-Atome: 45
+H-Atome: 90
+Typ: Alken
+____________________
+Name: Hexatetraconten
+C-Atome: 46
+H-Atome: 92
+Typ: Alken
+____________________
+Name: Heptatetraconten
+C-Atome: 47
+H-Atome: 94
+Typ: Alken
+____________________
+Name: Octatetraconten
+C-Atome: 48
+H-Atome: 96
+Typ: Alken
+____________________
+Name: Nonatetraconten
+C-Atome: 49
+H-Atome: 98
+Typ: Alken
+____________________
+Name: Pentaconten
+C-Atome: 50
+H-Atome: 100
+Typ: Alken
+____________________

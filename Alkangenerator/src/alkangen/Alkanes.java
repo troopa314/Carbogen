@@ -8,9 +8,9 @@ package alkangen;
  * @author Troopa
  * @version 26.01.2014
  */
-public class Alkane {
+public class Alkanes {
 	
-	public static final String[] Alkane = {"Meth", "Eth", "Prop", "But", "Pent", "Hex", "Hept", "Oct", "Non", "Dec", "Undec", "Dodec" ,
+	public static final String[] Prefixes = {"Meth", "Eth", "Prop", "But", "Pent", "Hex", "Hept", "Oct", "Non", "Dec", "Undec", "Dodec" ,
 			"Tridec", "Tetradec", "Pentadec", "Hexadec", "Heptadec", "Octadec", "Nonadec", "Icos", "Henicos", "Docos", "Tricos",
 			"Tetracos", "Pentacos", "Hexacos", "Heptacos", "Octacos", "Nonacos", "Triacont", "Hentriacont", "Dotriacont",
 			"Tritriacont", "Tetratriacont", "Pentatriacont", "Hexatriacont", "Heptatriacont", "Octatriacont",

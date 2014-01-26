@@ -14,18 +14,18 @@ public class Namegen {
 	
 	
 	
-	protected String generatePrefix(Kohlenwasserstoff k) {
+	protected String generatePrefix(Hydrocarbon h) {
 		boolean isValid = false;
 		String prefix = null;
 		while(!isValid) {
-			int r = random1.nextInt(Alkane.Alkane.length - 1);
-			if (r == k.getcAtome() - 1) {
+			int r = random1.nextInt(Alkanes.Prefixes.length - 1);
+			if (r == h.getcAtome() - 1) {
 				isValid = true;
 				try{
-				prefix = Alkane.Alkane[r];
+				prefix = Alkanes.Prefixes[r];
 				}
 				catch(ArrayIndexOutOfBoundsException e) {
-					prefix = Alkane.Alkane[0];
+					prefix = Alkanes.Prefixes[0];
 				}
 				break;
 			}	
@@ -37,8 +37,8 @@ public class Namegen {
 		return prefix;
 	}
 	
-	protected String generateSuffix(Kohlenwasserstoff k) {
-		switch(isValid(k)) {
+	protected String generateSuffix(Hydrocarbon h) {
+		switch(isValid(h)) {
 		case Klassifizierungen.ALKAN : return "an";
 		case Klassifizierungen.ALKEN : return "en";
 		case Klassifizierungen.ALKIN : return "in";
@@ -49,8 +49,8 @@ public class Namegen {
 		return null;
 	}
 	
-	public String generateName(Kohlenwasserstoff k) {
-		String name = generatePrefix(k) + generateSuffix(k);
+	public String generateName(Hydrocarbon h) {
+		String name = generatePrefix(h) + generateSuffix(h);
 		return name;
 	}
 	
@@ -68,17 +68,17 @@ public class Namegen {
 		return null;
 	}
 	
-	protected int isValid(Kohlenwasserstoff k) {
-		if(2 * k.getcAtome() + 2 == k.gethAtome()) {
+	protected int isValid(Hydrocarbon h) {
+		if(2 * h.getcAtome() + 2 == h.gethAtome()) {
 			return Klassifizierungen.ALKAN;
 		}
-		else if(2 * k.getcAtome() == k.gethAtome() && generatePrefix(k) != "Meth") {
+		else if(2 * h.getcAtome() == h.gethAtome() && generatePrefix(h) != "Meth") {
 			return Klassifizierungen.ALKEN;
 		}
-		else if(2 *k.getcAtome() - 2 == k.gethAtome() && generatePrefix(k) != "Meth") {
+		else if(2 *h.getcAtome() - 2 == h.gethAtome() && generatePrefix(h) != "Meth") {
 			return Klassifizierungen.ALKIN;
 		}
-		else if(2 * k.getcAtome() + 1 == k.gethAtome()) {
+		else if(2 * h.getcAtome() + 1 == h.gethAtome()) {
 			return Klassifizierungen.ALKANOL;
 		}
 		return -1;

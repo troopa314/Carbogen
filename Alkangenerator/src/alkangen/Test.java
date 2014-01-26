@@ -17,11 +17,11 @@ public class Test {
 	
 	public static void main(String[] args) throws IOException {
 		int m = 0;
-		int max = Integer.parseInt(JOptionPane.showInputDialog("Maximalwert:"));
-		int typ = Integer.parseInt(JOptionPane.showInputDialog("Typ der zu generierenden Kohlenwasserstoffe: "));
+		int max = Integer.parseInt(JOptionPane.showInputDialog("Calculate until:"));
+		int typ = Integer.parseInt(JOptionPane.showInputDialog("Type of the generated Hydrocarbons:"));
 		if(typ >= 100){ typ = 99; }
 		Writer fw = null;
-		File file = new File("Kohlenwasserstoffe.txt");
+		File file = new File("Hydrocarbons.txt");
 		try{fw = new FileWriter(file);} catch(IOException e){};
 		if(typ == Klassifizierungen.ALKAN) {
 			m = 2;
@@ -36,14 +36,14 @@ public class Test {
 			m = 1;
 		}
 		for(int i = 1; i <= max; i++) {
-			Kohlenwasserstoff k = new Kohlenwasserstoff(i, 2*i+m);
-				fw.write("Name: " + k.getName());
+			Hydrocarbon h = new Hydrocarbon(i, 2*i+m);
+				fw.write("Name: " + h.getName());
 				fw.append( System.getProperty("line.separator") );
-				fw.write("C-Atome: " + k.getcAtome());
+				fw.write("C-Atome: " + h.getcAtome());
 				fw.append( System.getProperty("line.separator") );
-				fw.write("H-Atome: " + k.gethAtome());
+				fw.write("H-Atome: " + h.gethAtome());
 				fw.append( System.getProperty("line.separator") );
-				fw.write("Typ: " + Namegen.typToName(k.getTyp()));
+				fw.write("Typ: " + Namegen.typToName(h.getType()));
 				fw.append( System.getProperty("line.separator") );
 				fw.write("____________________");
 				fw.append( System.getProperty("line.separator") );
