@@ -22,7 +22,8 @@ public class Test {
 		if(typ >= 100){ typ = 99; }
 		Writer fw = null;
 		File file = new File("Hydrocarbons.txt");
-		try{fw = new FileWriter(file);} catch(IOException e){};
+		try{fw = new FileWriter(file);} catch(IOException e){e.printStackTrace();};
+		//Somehow, switches do not work.
 		if(typ == Types.ALKANE) {
 			m = 2;
 		}

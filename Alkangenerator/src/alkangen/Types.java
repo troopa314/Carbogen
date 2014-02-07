@@ -16,6 +16,7 @@ public class Types {
 	public static final int ALKENE = 1;
 	public static final int ALKINE = 2;
 	public static final int ALKANOLE = 3;
+	//these two are currently unused, but still available
 	public static final int ALKENOLE = 4;
 	public static final int ALKINOLE = 5;
 

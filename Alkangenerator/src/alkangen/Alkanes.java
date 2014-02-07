@@ -9,7 +9,7 @@ package alkangen;
  * @version 26.01.2014
  */
 public class Alkanes {
-	
+	//I wanted to use an Enum, but Ordinal <=> Value was annoying
 	public static final String[] Prefixes = {"Meth", "Eth", "Prop", "But", "Pent", "Hex", "Hept", "Oct", "Non", "Dec", "Undec", "Dodec" ,
 			"Tridec", "Tetradec", "Pentadec", "Hexadec", "Heptadec", "Octadec", "Nonadec", "Icos", "Henicos", "Docos", "Tricos",
 			"Tetracos", "Pentacos", "Hexacos", "Heptacos", "Octacos", "Nonacos", "Triacont", "Hentriacont", "Dotriacont",

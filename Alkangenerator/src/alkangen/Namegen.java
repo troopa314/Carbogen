@@ -54,7 +54,7 @@ public class Namegen {
 		return name;
 	}
 	
-	
+	//Thinking about transferring this to Types
 	protected static String typToName(int typ) {
 		switch(typ) {
 		case Types.ALKANE : return "Alkane";
