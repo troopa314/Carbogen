@@ -38,7 +38,7 @@ public class Hydrocarbon {
 	
 	public String getName()
 	{
-		return name;
+		return name;//Wieso überall außer hier this ? :D
 	}
 
 	public int getType() {
