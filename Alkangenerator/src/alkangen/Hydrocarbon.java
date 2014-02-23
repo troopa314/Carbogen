@@ -42,6 +42,6 @@ public class Hydrocarbon {
 	}
 
 	public int getType() {
-		return this.type;
+		return type;
 	}
 }
